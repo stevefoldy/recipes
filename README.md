@@ -1,2 +1,2 @@
 # recipes
-Recept gyújtemény
+Recept gyűjtemény
