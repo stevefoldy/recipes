@@ -1,0 +1,107 @@
+.module-header-title {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+}
+
+.module-header {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module-header-title-after {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.module-header-title-after-separator {
+    width: 3.125rem;
+    height: 1px;
+    background: #86ba09;
+    margin: 0 0.625rem;
+}
+
+.module-header-title-after img {
+    width: 1.25rem;
+    height: auto;
+}
+
+.module-body {
+    padding-bottom: 3rem;
+}
+
+/* newsletter */
+
+.newsletter-module {
+    background: #f5f5f5;
+    position: relative;
+}
+
+.newsletter-module:before,
+.newsletter-module:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    background: url('../img/bg-top-3.png');
+    top: -70px;
+}
+
+.newsletter-module:after {
+    background: url('../img/bg-top-2.png');
+    bottom: 0;
+    top: auto;
+}
+
+.newsletter-module .form-control {
+    border: 1px solid transparent;
+    height: calc(3em + .75rem);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.newsletter-module .form-check-label {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: gray;
+}
+
+.footer-module-header {
+    align-items: flex-start;
+}
+
+.footer-module-header-title {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.footer-module-list {
+    padding: 0;
+}
+
+.footer-module-list-item {
+    list-style: none;
+    padding: 7px 0;
+    color: #666;
+}
+
+
+.footer-module-list-item a {
+    color: #666;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.footer-module-list-item a:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.footer-module-list-item-with-icon {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.copyright {
+    border-top: 1px solid #ebebeb;
+    padding: 2.5rem 0 12.5rem;
+}
+
+footer {
+    background: url('../src/svg/garden.svg') bottom left no-repeat;
+}
+
+.footer-module-desc {
+    font-size: 1rem;
+    line-height: 1.9;
+    font-weight: 300;
+    padding-right: 2.5rem;
+}
