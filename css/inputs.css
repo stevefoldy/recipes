@@ -1,0 +1,37 @@
+.form-control {
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.form-control-search {
+    border: 0;
+    height: calc(3em + .75rem);
+    font-style: italic;
+}
+
+.search-form-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form-box-title{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 3px 8px rgba(0,0,0,.7);
+    font-weight: bold;
+    font-family: var(--secondary-font);
+}
+
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child) {
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+}
