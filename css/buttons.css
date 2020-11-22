@@ -41,3 +41,7 @@
     border-color: var(--main-color);
     box-shadow: 0 0 0 0.2rem rgba(72,180,97,.5);
 }
+
+.newsletter-module .btn-success:hover {
+    color: var(--main-color);
+}

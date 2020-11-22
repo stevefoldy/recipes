@@ -1,0 +1,9 @@
+.login-main .form-control{
+    height: calc(3em + .75rem);
+    font-style: italic;
+    font-size: 16px;
+}
+
+.subcategories-main .module .module-header {
+    display: none;
+}

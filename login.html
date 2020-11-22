@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head w3-include-html="pagehead.html">
 </head>
 <body>
@@ -11,10 +12,23 @@
     <script type="text/javascript"> document.getElementById("loadingscreen").classList.remove("d-none")
     </script>
     <header w3-include-html="header.html"></header>
-    <main>
-      <div class="container-fluid px-0">
-        <div class="recipe-page" w3-include-html="Recipes/para_hus_pen_tesz.html"></div>
-      </div>
+    <main class="login-main">
+        <div class="container mb-5">
+            <div class="module-header">
+                <h2 class="module-header-title">Belépés / Regisztráció</h2>
+            </div>
+            <div class="w-75 m-auto text-center mb-4">
+                <input type="text" class="form-control form-control-lg mb-4" placeholder="Teljes név">
+                <input type="text" class="form-control form-control-lg mb-4" placeholder="Email cím">
+                <a href="#" class="btn btn-outline-success btn-lg m-auto mb-4">Belépek</a>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-link">Hozzd létre saját fiókot</a>
+            </div>
+        </div>
+        <div class="container-fluid py-sm-5 px-0">
+            <section w3-include-html="newsletter.html"></section>
+        </div>
     </main>
     <footer w3-include-html="footer.html"></footer>
     <script type="text/javascript">
