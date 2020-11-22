@@ -1,0 +1,119 @@
+.recipe-page-head-title {
+    font-weight: bold;
+}
+
+.recipe-page-desc {
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.recipe-page-desc p {
+    line-height: 1.6;
+}
+
+.recipe-page-hero-image {
+    border: 1px solid rgba(143,143,143,0.25);
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.recipe-page-hero-image img {
+    height: 540px;
+    object-fit: cover;
+}
+
+.img-thumbnail {
+    padding: 0;
+    border-radius: 10px;
+}
+
+.recipe-page-tags {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.recipe-page-tags-item {
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.pathway-container {
+    background-size: cover !important;
+    background-position-y: center !important;
+    position: relative;
+}
+
+.pathway-container:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.pathway-container-inner {
+    padding: 100px 0;
+    color: white;
+}
+
+.pathway-container-items {
+    font-size: 14px;
+    line-height: 1.15;
+}
+.pathway-container-items a {
+    color: white;
+}
+
+.pathway-container-items a:hover {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.pathway-container-title {
+    font-family: var(--secondary-font);
+    font-size: 33px;
+    line-height: 1.15;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.tab-content {
+    margin-bottom: 30px;
+    padding: 50px 70px;
+    border: 1px solid rgba(143,143,143,0.25);
+    border-radius: 10px;
+    font-size: 15px;
+    color: var(--text-color);
+    line-height: 2;
+}
+
+.nav-tabs {
+    padding: 0 0 50px;
+    text-align: center;
+    border: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-tabs .nav-link {
+    font-size: 35px;
+    font-weight: 500;
+    border: 0;
+    font-family: var(--secondary-font);
+    color: #666;
+    text-transform: capitalize;
+    padding: 0;
+    position: relative;
+    line-height: 1.7;
+    padding: 0 20px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+    color: var(--main-color);
+}

@@ -4,6 +4,8 @@
 @import url('cards.css');
 @import url('modules.css');
 @import url('footer.css');
+@import url('carousel.css');
+@import url('flypage.css');
 
 :root {
     --primary-font: 'Roboto', sans-serif;
@@ -18,7 +20,7 @@ body {
 
 .navbar {
     font-family: var(--secondary-font);
-    padding: 1.375rem 1rem;
+    padding: 1.375rem 0;
 }
 
 .navbar-nav .nav-link {
